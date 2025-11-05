@@ -36,18 +36,30 @@ FinAI combină **profilarea inteligentă**, **recomandările dinamice** și un *
 
 ## ⚙️ Tech Stack
 
-**Frontend:**  
-- React.js + TypeScript  
-- Tailwind CSS  
-- Motion & Lucide pentru UI interactiv  
+### 🖥️ Frontend
+- **React.js + TypeScript**
+- **Tailwind CSS**
+- **Framer Motion** & **Lucide Icons** – for modern, interactive UI
+- **Context API** – for global state management (user profiles & dashboard data)
 
-**Backend:**  
-- FastAPI (Python)  
-- PostgreSQL  
-- Docker  
-- Machine Learning & Agentic Workflow  
+### ⚙️ Backend
+- **FastAPI (Python)** – RESTful API with modular structure  
+- **PostgreSQL** – relational database for clients, transactions & investments  
+- **Docker** – containerized deployment for backend, database & AI services  
+
+### 🧠 Machine Learning & Agentic Workflow
+- **AWS Bedrock (Claude 3 Sonnet)** – core AI model for financial insights & chat assistant  
+- **Custom ML Pipelines** – used for user profiling, transaction analysis & risk prediction  
+- **Google Colab** – used for model training, data exploration, and experimentation  
+- **MCP Server Integration** – secure orchestration between AI and backend components  
+
+### ☁️ Cloud & Infrastructure
+- **Amazon Web Services (AWS)** – scalable model hosting and infrastructure management  
+- **Docker Compose** – orchestrating API, database, and AI agents in unified environments  
 
 ---
+
+
 
 ## 🧮 How It Works
 
